@@ -1,0 +1,29 @@
+>Thêm enemy
+-Ballom, Kondoria, Oneal extends Boss
+-BoomBang: 
+typeBossDie
+checkTypeBossDie
+checkTypeBossDie_ToImage
+Image[] BOSS_DIE
+-GameManager:
+initBoss
+
+>Thêm portal
+-Item:
+ITEM_IMAGE: 3
+Constructor Item : bitItem
+-GameManager:
+initItem
+AI: isGetPortal
+-Player:
+isGetPortal
+moveItem
+
+>AI cho enemy
+-AI
+-AILow
+-AIMedium
+-Boss:
+createOrient
+-Boss_1:
+createOrient
